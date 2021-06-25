@@ -1,0 +1,5 @@
+# Compiled executable
+*.out
+
+# Wave form file
+*.vcd
