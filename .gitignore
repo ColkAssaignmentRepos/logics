@@ -3,3 +3,6 @@
 
 # Wave form file
 *.vcd
+
+# sample files
+*sample*/
