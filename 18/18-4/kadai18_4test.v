@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module kadai_16_4_test;
+module kadai_18_4_test;
     reg ck, res;
     wire [3:0] q;
 
@@ -8,7 +8,7 @@ module kadai_16_4_test;
     always #10 ck = ~ck; // クロック
 
     initial begin
-        $dumpfile("kadai_16_4_test.vcd");
+        $dumpfile("kadai_18_4_test.vcd");
         $dumpvars(0, kadai_16_4_test);
         ck = 0; res = 0;
         #10 res = 1; // 出力を初期化
